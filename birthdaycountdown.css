@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Filson Pro';
+    src: local('Filson Pro Bold'), local('Filson-Pro-Bold'),
+        url('FilsonPro-Bold.woff2') format('woff2'),
+        url('FilsonPro-Bold.woff') format('woff'),
+        url('FilsonPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+body{
+    background-color: #f8f8f5;
+    padding: 150px;
+}
+
+.countdown h1{
+    color: #00ac64;
+    font-family: 'Filson Pro';
+    font-size: 60px;
+    text-align: center;
+    
+}
+.countdown p{
+    color: #00ac64;
+    font-family: 'Filson Pro';
+    font-size: 12px;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    
+}
+
+#countdown {
+    color: #e69d3e;
+    text-align: center;
+    font-family: 'Filson Pro';
+  }
+  
+  
+  
+ #countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #e69d3e;
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 4.5rem;
+  }
